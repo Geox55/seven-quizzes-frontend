@@ -1,0 +1,12 @@
+.card_button_answer {
+  border: none;
+  background: #0066FF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 16px 61px;
+  height: fit-content;
+}

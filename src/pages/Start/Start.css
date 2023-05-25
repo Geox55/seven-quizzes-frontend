@@ -1,0 +1,53 @@
+.card_start {
+  max-width: 1041px;
+  padding: 41px 70px 30px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.card_start__header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.card_game__name {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #393939;
+  margin: 0;
+}
+
+.card_game__rule_describe {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+  gap: 14px;
+
+}
+
+.card_game__rule_text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+}
+
+.card_game__start {
+  border: none;
+  background: #0066FF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 16px 61px;
+  height: fit-content;
+}

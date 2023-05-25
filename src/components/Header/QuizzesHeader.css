@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 28px 151px 24px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.header___main-logo {
+  text-decoration: none;
+}
+
+.header__game-rules {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+  border: none;
+  background: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header__logout {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #393939;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.header__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+}
+

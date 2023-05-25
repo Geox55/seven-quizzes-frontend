@@ -1,0 +1,56 @@
+.card_rooms {
+  padding: 60px 220px 85px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.card_rooms__header_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #393939;
+  margin-bottom: 20px;
+}
+
+.card_rooms__describe {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #393939;
+  margin-bottom: 50px;
+}
+
+.card_rooms__describe a {
+  text-decoration: underline;
+}
+
+.card_rooms__rooms {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card_rooms__room{
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #0066FF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #0066FF;
+  padding: 16px 125px;
+  height: 55px;
+}
+
+.card_rooms__room:hover {
+  background: #EDF4FF;
+}
+
+.card_rooms__room:active {
+  background: #D3E4FF;
+}

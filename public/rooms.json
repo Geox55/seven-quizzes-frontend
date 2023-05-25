@@ -1,0 +1,18 @@
+[
+  {
+    "roomId": "b8a71c88-7ae0-4a54-9697-9ceb5a1f8fc0",
+    "roomName": "Room 1"
+  },
+  {
+    "roomId": "d8a71c88-7ae0-4a54-9697-9ceb5a1f8fc0",
+    "roomName": "Room 2"
+  },
+  {
+    "roomId": "b8a71c88-7ae0-4a54-9697-9ceb5a1f8fc1",
+    "roomName": "Room 3"
+  },
+  {
+    "roomId": "b8a71c88-7ae0-4a54-9697-9ceb5a1f8fc2",
+    "roomName": "Room 4"
+  }
+]

@@ -1,0 +1,38 @@
+.card_end {
+  padding: 64px 178px 61px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.card_game__finish_text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  color: #0066FF;
+  margin-bottom: 30px;
+}
+
+.card_end__points_text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #393939;
+  margin-bottom: 67px;
+}
+
+.card_end__button_play_again {
+  border: none;
+  background: #0066FF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 16px 61px;
+  height: fit-content;
+}

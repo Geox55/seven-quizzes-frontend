@@ -1,0 +1,135 @@
+.card_game {
+  max-width: 880px;
+  width: 100%;
+  padding: 41px 73px 30px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.card_game__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+  align-items: flex-end;
+}
+
+.card_game__name {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #393939;
+  margin: 0;
+}
+
+.card_game__points {
+  border: none;
+  background: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+}
+
+.card_game__question {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+  margin-bottom: 35px;
+}
+
+.card_game__list_answers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.card_game__answer {
+  border: none;
+  background: #E6F0FF;
+  border-radius: 10px;
+  width: 100%;
+  padding: 17px 25px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+  text-align: left;
+  height: fit-content;
+}
+
+.card_game__answer:hover {
+  background: #D9E8FF;
+}
+
+.card_game__answer:disabled {
+  background: #E6F0FF;
+  color: #393939;
+}
+
+.card_game__answer:disabled.button__answer-wrong {
+  background: #FFD9D9;
+  color: #393939;
+}
+
+.card_game__answer:disabled.button__answer-wrong::after {
+  content: '';
+  position: absolute;
+  right: 22px;
+  top: 13px;
+  width: 32px;
+  height: 32px;
+  color: #393939;
+  background-image: url('./images/healthicons_no.svg');
+}
+
+.card_game__answer:disabled.button__answer-correct::after {
+  content: '';
+  position: absolute;
+  right: 22px;
+  top: 13px;
+  width: 32px;
+  height: 32px;
+  color: #393939;
+  background-image: url('./images/healthicons_yes.svg');
+}
+
+.card_game__answer:disabled.button__answer-correct {
+  background: #CCFFE0;
+  color: #393939;
+}
+
+.card_game__send_answer {
+  border: none;
+  background: #0066FF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 190px;
+  padding: 16px 0;
+  height: fit-content;
+  margin-top: 50px;
+}
+
+.card_button_answer:hover {
+  background: #297FFF;
+  color: #FFFFFF;
+
+}
+
+.card_button_answer:disabled {
+  background: #C1C1C1;
+  color: #FFFFFF;
+}
+
+.selected_button {
+  background: #C0D9FF;
+}

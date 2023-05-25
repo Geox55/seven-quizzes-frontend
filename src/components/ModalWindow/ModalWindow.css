@@ -1,0 +1,26 @@
+.game_rules {
+  max-width: 1041px;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 20px;
+
+}
+
+.game_rules_title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #393939;
+  margin-bottom: 20px;
+}
+
+.game_rules_text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+}
